@@ -27,3 +27,4 @@ jobs:
         ibmcloud target --cf
         ibmcloud cf install
         ibmcloud cf restart ${{ secrets.CFNAME }}
+
